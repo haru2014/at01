@@ -17,3 +17,4 @@ docker ps --filter "name=my-web-8080"
 echo "[Step 5] Testing HTTP connection..."
 sleep 1
 curl -s http://localhost:8080 | grep "Hello Codyssey" && echo ">>> Verified successfully! <<<"
+
